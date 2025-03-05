@@ -45,13 +45,13 @@ public:
             switch (subChoice) 
 			{
                 case 1: 
-						return 240;
+			return 240;
                 case 2: 
-						return 160;
+			return 160;
                 case 3: 
-						return 100;
+			return 100;
                 default:
-						return 0;
+			return 0;
             }
         }
         return 0;
